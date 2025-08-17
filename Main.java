@@ -1,4 +1,4 @@
-public class vini {
+public class Main {
     public static void main(String[] args) {
         
         ProjetoLivraria livro1 = new ProjetoLivraria("Java Para iniciantes", "ViniRaiz7", 50.0);

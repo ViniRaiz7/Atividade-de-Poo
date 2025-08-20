@@ -8,7 +8,7 @@ public class Banco {
         conta1.sacar(200);
         conta1.consultarSaldo();
 
-        System.out.println("----------------------------");
+        System.out.println("");
       
         conta2.depositar(1000);
         conta2.sacar(150);

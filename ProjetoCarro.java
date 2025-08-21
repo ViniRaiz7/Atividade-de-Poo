@@ -1,7 +1,7 @@
 public class ProjetoCarro {
-    private String marca;
-    private String modelo;
-    private int ano;
+    String marca;
+    String modelo;
+    int ano;
 
     
     public Carro(String marca, String modelo, int ano) {

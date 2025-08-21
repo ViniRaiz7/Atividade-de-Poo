@@ -1,7 +1,7 @@
 public class ContaBancaria {
-    String numeroConta;
-    String titular;
-    double saldo;
+   private String numeroConta;
+   private titular;
+   private double saldo;
 
     
     public ContaBancaria(String numeroConta, String titular, double saldoInicial) {

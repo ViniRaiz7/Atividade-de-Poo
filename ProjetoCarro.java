@@ -4,13 +4,12 @@ public class ProjetoCarro {
     int ano;
 
     
-    public Carro(String marca, String modelo, int ano) {
+    public ProjetoCarro(String marca, String modelo, int ano) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
     }
 
-    
     public String getMarca() {
         return marca;
     }
@@ -35,12 +34,10 @@ public class ProjetoCarro {
         this.ano = ano;
     }
 
-    
     public void mostrarInformacoes() {
         System.out.println("Carro: " + marca + " - " + modelo + " (" + ano + ")");
     }
 
-    
     public void ligarCarro() {
         System.out.println("O carro " + marca + " " + modelo + " está ligado!");
     }

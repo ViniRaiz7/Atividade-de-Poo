@@ -2,10 +2,10 @@ public class ProjetoAluno {
 
     
     static class Aluno {
-        private String nome;
-        private int matricula;
-        private double notaAv1;
-        private double notaAv2;
+        String nome;
+        int matricula;
+        double notaAv1;
+        double notaAv2;
 
         public Aluno(String nome, int matricula, double notaAv1, double notaAv2) {
             this.nome = nome;

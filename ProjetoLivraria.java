@@ -1,7 +1,7 @@
 public class ProjetoLivraria {
-    private String titulo;
-    private String autor;
-    private double preco;
+    String titulo;
+    String autor;
+    double preco;
 
     
     public ProjetoLivraria(String titulo, String autor, double preco) {

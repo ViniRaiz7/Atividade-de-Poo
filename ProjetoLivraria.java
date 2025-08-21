@@ -3,14 +3,14 @@ public class ProjetoLivraria {
     String autor;
     double preco;
 
-    // Construtor
+    
     public ProjetoLivraria(String titulo, String autor, double preco) {
         this.titulo = titulo;
         this.autor = autor;
         this.preco = preco;
     }
 
-    // Getters
+    
     public String getTitulo() {
         return titulo;
     }
@@ -23,7 +23,7 @@ public class ProjetoLivraria {
         return preco;
     }
 
-    // Setters
+    
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
@@ -36,12 +36,12 @@ public class ProjetoLivraria {
         this.preco = preco;
     }
 
-    // Aplica desconto no preço
+    
     public void aplicarDesconto(double percentual) {
         preco -= preco * (percentual / 100);
     }
 
-    // Exibe as informações do livro
+    
     public void mostrarInformacoes() {
         System.out.println("Livro: " + titulo + " | Autor: " + autor + " | Preço: R$ " + preco);
     }
